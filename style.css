@@ -1,0 +1,91 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #FF3333;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+div.logo-titulo{
+    display: row;
+    padding: 2rem 2rem;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    
+}
+div.logo-titulo div{
+    padding-top: 2rem;
+}
+div.logo-titulo div img{
+    display:  flex;
+    padding-right: 50vw;
+    padding-left: 3vw;
+    height: 8vw;
+    width:  8vw;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    border-bottom:1.5rem solid #333333;
+    
+}
+nav{
+    background-color: #333333;
+    display:  flex;
+    color: #ffff;
+}
+div.multivinculos{
+    display: flex;
+    margin: 0 auto;
+    
+    
+}
+div.multivinculos div{
+    display: flex;
+    padding: 1rem;
+    margin:2rem;
+}
+div.multivinculos div a {
+ color: #ffff;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+main div.contenedorPrincipal div.mision{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    width: 90rem;
+    height: 20rem;
+    background-color: #fff;
+
+}
+h3{
+    font-size: 2rem;
+}
+main div.contenedorPrincipal div.mision div.imagen{
+    display: flex;
+    justify-content: center;
+    margin: .5 rem;
+
+}
+footer{
+    padding: 1rem;
+    text-align: center;
+    color: #ffff;
+    width: 100%;
+    background-color: #333333;
+}
